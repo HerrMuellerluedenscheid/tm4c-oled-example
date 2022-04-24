@@ -1,0 +1,28 @@
+[package]
+authors = [
+	"Jonathan 'theJPster' Pallant <github@thejpster.org.uk>",
+]
+edition = "2018"
+readme = "README.md"
+name = "tiva-c-launchpad"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.6"
+cortex-m-rt = "0.6"
+cortex-m-semihosting = "0.3.2"
+panic-halt = "0.2.0"
+tm4c-hal = "0.4.1"
+
+# the latest version is 10.1 I think
+tm4c123x-hal = {version = "0.8.0", features = ["rt"] }
+display-interface-spi = "0.4.1"
+ssd1309 = "0.3.0"
+embedded-graphics-core = { version = "^ 0.3", optional = true }
+embedded-graphics = "^ 0.7"
+
+# this lets you use `cargo fix`!
+[[bin]]
+name = "tiva-c-launchpad"
+test = false
+bench = false
