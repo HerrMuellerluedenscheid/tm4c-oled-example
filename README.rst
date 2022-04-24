@@ -5,7 +5,7 @@ Use the SSD1309 via SPI. The display module was `this model <https://www.amazon.
 which can be changed between using I2C and SPI by adjusting three different resistors. This example is using **SPI**.
 
 .. image:: ./tm4c-oled-small.jpg
-  :width: 400
+  :width: 600
   :alt: OLED SPI example
 
 .. list-table:: Wireing
