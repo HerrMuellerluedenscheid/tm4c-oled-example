@@ -1,5 +1,5 @@
-TIVA-C-Launchpad (TM4C123) + SSD1309 OLED Example (SPI)
-=======================================================
+Embedded RUST TIVA-C-Launchpad (TM4C123) + SSD1309 OLED Example (SPI)
+=====================================================================
 
 Use the SSD1309 via SPI. The display module was `this model <https://www.amazon.de/gp/product/B08RBYMBML/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1>`_
 which can be changed between using I2C and SPI by adjusting three different resistors. This example is using **SPI**.
